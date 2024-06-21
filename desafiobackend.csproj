@@ -6,9 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>-->
 
-    <Compile Remove="Implementations\**" />
+    <!--<Compile Remove="Implementations\**" />
 
     <Compile Remove="Interfaces\**" />
     <Content Remove="Enums\**" />
@@ -17,14 +17,15 @@
     <EmbeddedResource Remove="Implementations\**" />
     <EmbeddedResource Remove="Interfaces\**" />
     <None Remove="Implementations\**" />
-    <None Remove="Interfaces\**" />
-  </ItemGroup>
+    <None Remove="Interfaces\**" />-->
+  <!--</ItemGroup>-->
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Compile Remove="Controllers\ITransactionService.cs" />
     <Compile Remove="Controllers\Retailesype.cs" />
     <Compile Remove="Domain\Entities\UserCreate.cs" />
-  </ItemGroup>
+    <Compile Remove="Domain\Services\Interfaces\RetailerService.cs" />
+  </ItemGroup>-->
 
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
@@ -33,7 +34,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--ItemGroup>
     <EditorConfigFiles Remove="C:\Users\vinicius.snascimento\OneDrive - GRUPOCARD COMERCIO DE CARTOES TELEFONICOS LTDA\Desktop\Projeto\desafiobackend\.editorconfig" />
   </ItemGroup>
 
@@ -42,11 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include=".gitignore" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="C:\Users\vinicius.snascimento\OneDrive - GRUPOCARD COMERCIO DE CARTOES TELEFONICOS LTDA\Desktop\Projeto\desafiobackend\.editorconfig" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>

@@ -1,6 +1,20 @@
-﻿################################################################################
-# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
-################################################################################
 
 /.vs/desafiobackend/FileContentIndex/f9d895b0-9ba2-4563-ab43-de711303ca21.vsidx
 *.vsidx
+*.props
+*.exe
+*.Up2Date
+*.cs
+*.dll
+*.cache
+*.editorconfig
+*.json
+*.csproj
+*.targets
+*.pdb
+*.txt
+*.bin
+*.suo
+*.v2
+*.wsuo
+*.sqlite

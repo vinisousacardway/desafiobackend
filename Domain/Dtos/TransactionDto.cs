@@ -2,7 +2,7 @@
 
 namespace desafiobackend.Domain.Dtos
 {
-    public class TransactionDTO
+    public class TransactionDto
     {
         public int Id { get; set; }
         [Required]

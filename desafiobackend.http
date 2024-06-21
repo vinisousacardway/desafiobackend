@@ -1,0 +1,12 @@
+# @desafiobackend_HostAddress = http://localhost:5053
+
+# GET {{desafiobackend_HostAddress}}/Retailes/
+# Accept: application/json
+
+# ###
+# afiobackend_HostAddress = http://localhost:5053
+
+# # GET {{desafiobackend_HostAddress}}/User/
+# # Accept: application/json
+
+# ###

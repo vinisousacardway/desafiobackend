@@ -2,11 +2,11 @@
 
 namespace desafiobackend.Domain.Dtos
 {
-    public class UserDTO
+    public class UserDto
  
         {
         public string FullName { get; set; }
-        public string CPF_CNPJ { get; set; }
+        public string Id { get; set; }
         public string Email { get; set; }
         public string CurrentPassword { get; set; }
         public string NewPassword { get; set; }

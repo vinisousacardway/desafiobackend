@@ -30,7 +30,7 @@ namespace desafiobackend.Domain.Dtos
         public string Password { get; set; }
         [Required(ErrorMessage = "O campo {0} é obrigatório.")]
         [MinLength(11, ErrorMessage = "O campo {0} deve ter mais de 10 caracteres.")]
-        public string CPF_CNPJ { get; set; }
+        public string Document { get; set; }
         [DefaultValue(0)]
         public UserType Type { get; set; }
     }

@@ -9,10 +9,10 @@ namespace desafiobackend.Domain.Services.Repository
 {
     public interface IRetailesRepositorycs
     {
-        Task<RetailesDto> Create(RetailesCreateDTO model);
-        Task<List<RetailesDto>> Read();
-        Task<RetailesDto> Read(int id);
-        Task<RetailesDto> Update(RetailesDto model);
+        Task<RetailerDto> Create(RetailerCreateDto model);
+        Task<List<RetailerDto>> Read();
+        Task<RetailerDto> Read(int id);
+        Task<RetailerDto> Update(RetailerUpdateDto model);
         Task Delete(int id);
     }
 }
